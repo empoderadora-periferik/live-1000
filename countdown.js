@@ -18,12 +18,19 @@ function getTimeRemaining(endtime) {
     };
 }
 
+function pad(n, width, z) {
+    z = z || '0';
+    n = n + '';
+    return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+  }
+
 //Clock display output function
 function initializeClock(id, endtime) {
     const clock = document.getElementById(id);
     const timeInterval = setInterval(() => {
         const t = getTimeRemaining(endtime);
-        clock.innerHTML = `${t.days} Dias ${t.hours} horas ${t.minutes} minutos ${t.seconds} segundos`;
+
+        clock.innerHTML = `${pad(t.days,2)} : ${pad(t.hours,2)} : ${pad(t.minutes,2)} : ${pad(t.seconds,2)}`;
 
         if (t.total <= 0) {
             clearInterval(timeInterval);
