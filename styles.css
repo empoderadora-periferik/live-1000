@@ -8,6 +8,7 @@ body {
     padding: 0px;
     width: 100%;
     height: 100%;
+    position: absolute;
 }
 
 .cabecalho {
@@ -17,6 +18,7 @@ body {
     left: 0px;
     top: 0px;
     right: 0px;
+
 
     background-image: linear-gradient(#303030 56.29%, rgba(235, 231, 222, 0) 258.96%);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
@@ -80,6 +82,7 @@ body {
     height: 62px;
     left: 1126px;
     top: 48px;
+    right: 86px;
 
     background: #F0C530;
 
@@ -132,7 +135,147 @@ body {
     text-align: center;
 
     color: #000000;
+}
 
+.row {
+    display: inline-flex;
+    position: absolute;
+    left: 173px;
+    top: 2314px;
+}
+
+.col {
+    width: 173px;
+    height: 147px;
+    position: relative;
+    background: #C4C4C4;
+
+    margin-right: 57px;
+}
+
+.cadastro {
+
+    position: absolute;
+    width: 100%;
+    height: 766px;
+    left: 0px;
+    top: 2731px;
+
+    background: #F4F4F4;
+}
+
+.cadastro h1 {
+    position: relative;
+    width: 585px;
+    height: 290px;
+    left: 174px;
+    top: 88px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 151px;
+
+    color: #000000;
+}
+
+.cadastro p {
+    position: absolute;
+    width: 372px;
+    height: 111px;
+    left: 175px;
+    top: 421px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #000000;
+}
+
+.nome {
+    position: absolute;
+    width: 451px;
+    height: 52px;
+    left: 760px;
+    top: 111px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+#nome {
+    position: absolute;
+    width: 506px;
+    height: 87px;
+    left: 760px;
+    top: 155px;
+
+    background: rgba(240, 197, 48, 0.7);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.email {
+    position: absolute;
+    width: 451px;
+    height: 25px;
+    left: 769px;
+    top: 284px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+#email {
+    position: absolute;
+    width: 506px;
+    height: 87px;
+    left: 760px;
+    top: 323px;
+
+    background: #F1D36B;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.confirmar {
+    position: absolute;
+    width: 280px;
+    height: 87px;
+    left: 873px;
+    top: 452px;
+
+    border: 6px solid rgba(240, 197, 48, 0.7);
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
 
 }
 
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top: 200%;
+    background: #B5B4B4;
+}
