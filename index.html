@@ -32,7 +32,7 @@
                         <a class="nav-link" id="nav-parcerias" href="#">Parcerias</a>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-btn-garantir" type="submit">Garantir vaga</button>
+                        <button class="nav-btn-garantir" type="submit" onclick="garantirVaga();">Garantir vaga</button>
                     </li>
                 </ul>
             </div>
@@ -48,8 +48,7 @@
             </tr>
             <tr class="legenda">
                 <td style="padding-left: 14px">
-                    <p>Dias</T>
-                    </p>
+                    <p>Dias</p>
                 </td>
                 <td>
                     <p>Horas</p>
@@ -62,7 +61,7 @@
                 </td>
             </tr>
         </table>
-        <button class="btn-garantir" type="submit">Garantir vaga</button>
+        <button class="btn-garantir" type="submit" onclick="garantirVaga();">Garantir vaga</button>
         <img class="destaque_direito" src="img/destaque_ladodireito.png">
 
     </div>
@@ -100,13 +99,23 @@
         <button class="confirmar">Confirmar</button>
     </div>
     <footer>
-        <img src="img/Insta.png" class="insta">
-        <img src="img/face.png" class="face">
+        <a href="https://www.instagram.com/empoderadora.periferik/">
+            <img src="img/Insta.png" class="insta">
+        </a>
+        <a href="https://www.facebook.com/Empoderadora.PeriferiK">
+            <img src="img/face.png" class="face">
+        </a>
         <p>Nos siga nas redes sociais</p>
         <img src="img/logofinal 1.png" class="logo_final">
     </footer>
     <script type="text/javascript" src="countdown.js"></script>
-    <script type="text/javascript" src="exitPopup.js"></script>
+    <!-- <script type="text/javascript" src="exitPopup.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function garantirVaga() {
+            $("#nome").focus();
+        }
+    </script>
 </body>
 
 </html>
