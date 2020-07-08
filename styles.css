@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 html,
 body {
     background: #E5E5E5;
@@ -24,6 +29,39 @@ body {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
 
+.destaque_texto {
+    color: #FD94D3 !important;
+    font-size: 56px;
+}
+
+.destaque_subTexto {
+    position: absolute;
+    top: 290px;
+    left: 160px;
+
+
+    color: white !important;
+    font-family: Muli;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.destaque_data {
+    position: absolute;
+    top: 390px;
+    left: 14%;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
 .navbar {
     background: #303030 !important;
 }
