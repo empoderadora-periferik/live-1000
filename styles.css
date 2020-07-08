@@ -6,8 +6,8 @@ body {
     background: #E5E5E5;
     margin: 0px;
     padding: 0px;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
 }
 
@@ -20,7 +20,7 @@ body {
     right: 0px;
 
 
-    background-image: linear-gradient(#303030 56.29%, rgba(235, 231, 222, 0) 258.96%);
+    background: linear-gradient(96.56deg, #303030 56.29%, rgba(189, 147, 40, 0) 258.96%);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -188,6 +188,7 @@ td {
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
+    border-style: none;
 
     color: #000000;
 }
@@ -206,6 +207,7 @@ td {
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
+    border-style: none;
 
     color: #000000;
 }
@@ -317,7 +319,7 @@ td {
 
     position: absolute;
     width: 100%;
-    height: 766px;
+    height: 960px;
     left: 0px;
     top: 2731px;
 
@@ -372,14 +374,13 @@ td {
 #nome {
     position: absolute;
     width: 506px;
-    height: 87px;
+    height: 60px;
     left: 760px;
     top: 155px;
 
-    background: rgba(240, 197, 48, 0.7);
+    background: #CBCBCB;
     border: 1px solid #000000;
     box-sizing: border-box;
-    border-radius: 12px;
 }
 
 .email {
@@ -400,14 +401,13 @@ td {
 #email {
     position: absolute;
     width: 506px;
-    height: 87px;
+    height: 60px;
     left: 760px;
     top: 323px;
 
-    background: #F1D36B;
+    background: #CBCBCB;
     border: 1px solid #000000;
     box-sizing: border-box;
-    border-radius: 12px;
 }
 
 .confirmar {
@@ -417,6 +417,7 @@ td {
     left: 873px;
     top: 452px;
 
+    background: #F0C530;
     border: 6px solid rgba(240, 197, 48, 0.7);
     box-sizing: border-box;
     border-radius: 12px;
@@ -436,7 +437,7 @@ footer {
     position: relative;
     width: 100%;
     height: 150px;
-    margin-top: 200%;
+    margin-top: 150%;
     background: #B5B4B4;
 }
 
@@ -479,3 +480,39 @@ footer p {
     top: 44px;
     right: 46px;
 }
+
+
+/* Popup styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #popup {
+    display: none;
+  }
+  
+  .popupWrapper {
+    background: rgba(0, 0, 0, .75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  .popupContainer {
+    background: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: 100px auto;
+    max-width: 100%;
+    padding: 20px;
+    width: 500px;
+  }
+  
+  .popupTitle {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
