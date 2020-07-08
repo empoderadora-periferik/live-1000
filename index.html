@@ -1,24 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Empoderadora Periferik</title>
 </head>
 
 <body>
-    <div id="clock"></div>
-
+    <!--Popup div-->
     <div id="popup" class="popupWrapper">
         <div class="popupContainer">
-            <h1 class="popupTitle">Não esqueça de se cadastrar!</h1>
-            <p>Nos vemos na live!</p>
+            <h1 class="popupTitle">Seu negócio vai mal?</h1>
+            <p class="subTitle">Cadastre-se e receba informações de experts do mercado</p>
+
+            <form class="registrationFormPopup">
+                <p class="popupMsg">xpto</p>
+                <label for="nome" class="nomePopup">Nome</label>
+                <input id="nomePopup" type="text" />
+                <label for="emailPopup" class="emailPopup">E-mail</label>
+                <input id="emailPopup" type="text" />
+                <button class="confirmarPopup">Quero receber!</button>
+                <p class="footMsg">Não iremos enviar spam para você.</p>
+            </form>
+
+            <div class="closeBtn">
+                <img id="closeBtn" src="img/closeBtn.svg" />
+            </div>
         </div>
     </div>
 
+    <!--Fim da div do popup, início do layout do site-->
+    <div class="cabecalho">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand"><img class="navbar-logo" src="img/logo_branco 1.png" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-sobre" href="#divsobre">Sobre o evento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-convidados" href="#divconvidados">Convidados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-parcerias" href="#divparcerias">Parcerias</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-btn-garantir" type="submit" onclick="garantirVaga();">Garantir vaga</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2 class="destaque_texto">Hora das Manas</h2>
+        <p class="destaque_subTexto">Empreendedorismo<br>
+        Feminino e Sustentabilidade</p>
+        <p class="destaque_data">Data: 9 de Julho<br>
+        Horário: 20h</p>
+
+        
+        <table>
+            <tr>
+                <td>
+                    <div id="clock"></div>
+                </td>
+            </tr>
+            <tr class="legenda">
+                <td>
+                    <p>Dias</p>
+                </td>
+                <td>
+                    <p>Horas</p>
+                </td>
+                <td>
+                    <p>Min</p>
+                </td>
+                <td>
+                    <p>Seg</p>
+                </td>
+            </tr>
+        </table>
+        <button class="btn-garantir" type="submit" onclick="garantirVaga();">Garantir vaga</button>
+        <img class="destaque_direito" src="img/destaque_ladodireito.png">
+
+    </div>
+
+    <div class="sobre" id="divsobre">
+        <h2>Sobre o evento</h2>
+        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+    </div>
+    <div class="convidados" id="divconvidados">
+        <h4>Convidados</h4>
+        <div class="convidados-row">
+            <div class="convidados-col"><img src="img/Ellipse 5.png">
+                <h5>Convidado1</h5>
+                <div>
+                    <h6>Descrição</h6>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                </div>
+            </div>
+            <div class="convidados-col"><img src="img/Ellipse 6.png">
+                <h5>Convidado2</h5>
+                <div>
+                    <h6>Descrição</h6>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                </div>
+            </div>
+            <div class="convidados-col"><img src="img/Ellipse 7.png">
+                <h5>Convidado3</h5>
+                <div>
+                    <h6>Descrição</h6>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parcerias" id="divparcerias">
+        <h1>Parcerias</h1>
+        <div class="parcerias-row">
+            <div class="parcerias-col"></div>
+            <div class="parcerias-col"></div>
+            <div class="parcerias-col"></div>
+            <div class="parcerias-col"></div>
+            <div class="parcerias-col"></div>
+        </div>
+    </div>
+    <div class="cadastro">
+        <h1>LOREM IPSUM</h1>
+        <p>Evento totalmente ONLINE e GRATUITO</p>
+        <form class="registrationForm">
+            <label for="nome" class="nome">Nome</label>
+            <input id="nome" type="text" />
+            <label for="email" class="email">E-mail</label>
+            <input id="email" type="text" />
+            <button class="confirmar">Confirmar</button>
+        </form>
+    </div>
+    <footer>
+        <a href="https://www.instagram.com/empoderadora.periferik/">
+            <img src="img/Insta.png" class="insta">
+        </a>
+        <a href="https://www.facebook.com/Empoderadora.PeriferiK">
+            <img src="img/face.png" class="face">
+        </a>
+        <p>Nos siga nas redes sociais</p>
+        <img src="img/logofinal 1.png" class="logo_final">
+    </footer>
     <script type="text/javascript" src="countdown.js"></script>
+    <script type="text/javascript" src="firebase.js"></script>
     <script type="text/javascript" src="exitPopup.js"></script>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            function garantirVaga() {
+                $("#nome").focus();
+            }
+        </script>
+
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+
 </body>
+
 </html>

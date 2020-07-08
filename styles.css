@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+html,
+body {
+    background: #E5E5E5;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.cabecalho {
+    position: relative;
+    width: 100%;
+    height: 727px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+
+
+    background: linear-gradient(96.56deg, #303030 56.29%, rgba(189, 147, 40, 0) 258.96%);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.destaque_texto {
+    color: #FD94D3 !important;
+    font-size: 56px;
+}
+
+.destaque_subTexto {
+    position: absolute;
+    top: 290px;
+    left: 160px;
+
+
+    color: white !important;
+    font-family: Muli;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.destaque_data {
+    position: absolute;
+    top: 390px;
+    left: 14%;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.navbar {
+    background: #303030 !important;
+}
+
+.navbar-logo {
+    position: absolute;
+    left: 88px;
+}
+
+.nav-link {
+
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF !important;
+}
+
+#nav-sobre {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 693px;
+    top: 67px;
+    padding-right: 40px;
+}
+
+#nav-convidados {
+    position: absolute;
+    width: 102px;
+    height: 23px;
+    left: 863px;
+    top: 67px;
+    padding-right: 40px;
+}
+
+#nav-parcerias {
+    position: absolute;
+    width: 81px;
+    height: 23px;
+    left: 1005px;
+    top: 67px;
+    padding-right: 72px;
+}
+
+.cabecalho h2 {
+    position: absolute;
+    width: 540px;
+    height: 170px;
+    left: 196px;
+    top: 212px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+#clock {
+    position: absolute;
+    width: 275px;
+    height: 83px;
+    left: 225px;
+    top: 486px;
+
+    background: #C4C4C4;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}
+
+.legenda {
+    position: absolute;
+    width: 41px;
+    height: 20px;
+    left: 225px;
+    top: 543px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    word-spacing: 30px;
+
+    color: #000000;
+}
+
+.legenda p {
+    margin-left: 5px;
+}
+
+td {
+    padding: 0px 14px 0px 14px !important;
+    text-align: left;
+}
+
+.destaque_direito {
+    position: absolute;
+    width: 490px;
+    height: 427.15px;
+    left: 841px;
+    top: 191px;
+}
+
+.sobre h2 {
+    position: absolute;
+    width: 538px;
+    height: 72px;
+    left: 451px;
+    top: 807px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 88px;
+    text-align: center;
+
+    color: #000000;
+
+    padding-bottom: 21px;
+}
+
+.sobre p {
+    position: absolute;
+    width: 753px;
+    height: 240px;
+    left: 344px;
+    top: 900px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.nav-btn-garantir {
+    position: absolute;
+    width: 228px;
+    height: 62px;
+    left: 1126px;
+    top: 48px;
+    right: 86px;
+
+    background: #F0C530;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    border-style: none;
+
+    color: #000000;
+}
+
+.btn-garantir {
+    position: absolute;
+    width: 275px;
+    height: 70px;
+    left: 225px;
+    top: 601px;
+
+    background: #F0C530;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    border-style: none;
+
+    color: #000000;
+}
+
+.convidados {
+    position: absolute;
+    width: 100%;
+    height: 606px;
+    left: 0px;
+    top: 1408px;
+
+    background: #444343;
+}
+
+.convidados h4 {
+    position: relative;
+    margin: 14px 580px 523px 580px;
+    width: 280px;
+    height: 69px;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.convidados-row {
+    display: inline-flex;
+    position: absolute;
+    width: 248px;
+    height: 442px;
+    left: 260px;
+    top: 104px;
+}
+
+.convidados-col {
+    padding: 0px 80px 0px 0px;
+}
+
+.convidados-col h5 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.convidados-col h6 {
+
+
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.convidados-col p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    height: 127px;
+
+    color: #FFFFFF;
+}
+
+.parcerias h1 {
+    position: absolute;
+    width: 459px;
+    height: 111px;
+    left: 491px;
+    top: 2094px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 88px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.parcerias-row {
+    display: inline-flex;
+    position: absolute;
+    left: 173px;
+    top: 2314px;
+}
+
+.parcerias-col {
+    width: 173px;
+    height: 147px;
+    position: relative;
+    background: #C4C4C4;
+
+    margin-right: 57px;
+}
+
+.cadastro {
+
+    position: absolute;
+    width: 100%;
+    height: 960px;
+    left: 0px;
+    top: 2731px;
+
+    background: #F4F4F4;
+}
+
+.cadastro h1 {
+    position: relative;
+    width: 585px;
+    height: 290px;
+    left: 174px;
+    top: 88px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 151px;
+
+    color: #000000;
+}
+
+.cadastro p {
+    position: absolute;
+    width: 372px;
+    height: 111px;
+    left: 175px;
+    top: 421px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #000000;
+}
+
+.nome {
+    position: absolute;
+    width: 451px;
+    height: 52px;
+    left: 760px;
+    top: 111px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+#nome {
+    position: absolute;
+    width: 506px;
+    height: 60px;
+    left: 760px;
+    top: 155px;
+
+    background: #CBCBCB;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.email {
+    position: absolute;
+    width: 451px;
+    height: 25px;
+    left: 769px;
+    top: 284px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+#email {
+    position: absolute;
+    width: 506px;
+    height: 60px;
+    left: 760px;
+    top: 323px;
+
+    background: #CBCBCB;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.confirmar {
+    position: absolute;
+    width: 280px;
+    height: 87px;
+    left: 873px;
+    top: 452px;
+
+    background: #F0C530;
+    border: 6px solid rgba(240, 197, 48, 0.7);
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top: 200%;
+    background: #B5B4B4;
+}
+
+.insta {
+    position: absolute;
+    left: 146px;
+    top: 44px;
+    bottom: -0.02%;
+}
+
+.face {
+    position: absolute;
+    left: 220px;
+    top: 41px;
+    bottom: 0.02%;
+}
+
+footer p {
+    position: absolute;
+    width: 228px;
+    height: 23px;
+    left: 85px;
+    top: 98px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.logo_final {
+    position: absolute;
+    width: 226px;
+    height: 93px;    
+    top: 44px;
+    right: 46px;
+}
+
+
+/* Popup styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #popup {
+    display: none;
+  }
+  
+  .popupWrapper {
+    background: rgba(0, 0, 0, .75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  .popupContainer {
+    background: #303030;;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: 100px auto;
+    max-width: 100%;
+    padding: 20px;
+    width: 500px;
+
+    width: 940px;
+    height: 724px;
+  }
+  
+  .popupTitle {
+    font-size: 26px;
+    margin-bottom: 15px;
+
+    text-align: center;
+
+    width: 849px;
+    height: 81px;
+    left: 396px;
+    top: 64px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 88px;
+
+    color: #F0C530;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .subTitle {
+    text-align: center;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+  }
+
+  .popupContainer form {
+    position: relative;
+    margin-left: 50%;
+    margin-top: 8%;
+    background: #F8F8F8;
+    width: 390px;
+    height: 400px; 
+
+    padding: 20px;
+  }
+
+  .nomePopup {
+    position: absolute;
+    left: 11%;
+    top: 5%;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+#nomePopup {
+    position: absolute;
+    width: 306px;
+    height: 40px;
+    left: 11%;
+    top: 15%;
+
+    background: #CBCBCB;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.emailPopup {
+    position: absolute;
+    width: 306px;
+    height: 40px;
+    left: 11%;
+    top: 35%;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+#emailPopup {
+    position: absolute;
+    width: 306px;
+    height: 40px;
+    left: 11%;
+    top: 45%;
+
+    background: #CBCBCB;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.confirmarPopup {
+    position: absolute;
+    width: 220px;
+    height: 67px;
+    left: 22%;
+    top: 65%;
+
+    background: #F0C530;
+    border: 6px solid rgba(240, 197, 48, 0.7);
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.footMsg {
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    top: 83%;
+    left: 26%;
+    text-align: center;
+}
+
+.popupMsg {
+    position: relative;
+    margin-right: 80%;
+
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+.closeBtn {
+    position: relative;
+    left: 94%;
+    bottom: 87%;
+    width: 10px;
+    height: 10px;
+}
