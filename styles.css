@@ -561,8 +561,9 @@ footer p {
   }
 
   .nomePopup {
-    position: relative;
-    left: 6%;
+    position: absolute;
+    left: 11%;
+    top: 5%;
 
     font-family: 'Muli', sans-serif;
     font-weight: normal;
