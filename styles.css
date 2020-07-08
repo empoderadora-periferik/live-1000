@@ -641,3 +641,25 @@ footer p {
     left: 26%;
     text-align: center;
 }
+
+.popupMsg {
+    position: relative;
+    margin-right: 80%;
+
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+.closeBtn {
+    position: relative;
+    left: 94%;
+    bottom: 87%;
+    width: 10px;
+    height: 10px;
+}

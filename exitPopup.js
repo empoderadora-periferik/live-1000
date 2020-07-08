@@ -8,6 +8,8 @@ function closeAlert(event) {
     document.getElementById("popup").style.display = "none";
 }
 
+const closeBtn = document.getElementById("closeBtn");
+
 document.addEventListener("mouseout", onMouseOut);
 
-document.addEventListener("click", closeAlert);
+closeBtn.addEventListener("click", closeAlert);
