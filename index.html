@@ -18,11 +18,11 @@
             <h1 class="popupTitle">Seu negócio vai mal?</h1>
             <p class="subTitle">Cadastre-se e receba informações de experts do mercado</p>
 
-            <form>
+            <form class="registrationFormPopup">
                 <p class="popupMsg">xpto</p>
                 <label for="nome" class="nomePopup">Nome</label>
                 <input id="nomePopup" type="text" />
-                <label for="email" class="emailPopup">E-mail</label>
+                <label for="emailPopup" class="emailPopup">E-mail</label>
                 <input id="emailPopup" type="text" />
                 <button class="confirmarPopup">Quero receber!</button>
                 <p class="footMsg">Não iremos enviar spam para você.</p>
@@ -136,7 +136,7 @@
     <div class="cadastro">
         <h1>LOREM IPSUM</h1>
         <p>Evento totalmente ONLINE e GRATUITO</p>
-        <form>
+        <form class="registrationForm">
             <label for="nome" class="nome">Nome</label>
             <input id="nome" type="text" />
             <label for="email" class="email">E-mail</label>
@@ -155,14 +155,19 @@
         <img src="img/logofinal 1.png" class="logo_final">
     </footer>
     <script type="text/javascript" src="countdown.js"></script>
-    <<script type="text/javascript" src="exitPopup.js">
-        </script>
+    <script type="text/javascript" src="firebase.js"></script>
+    <script type="text/javascript" src="exitPopup.js"></script>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
             function garantirVaga() {
                 $("#nome").focus();
             }
         </script>
+
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+
 </body>
 
 </html>
