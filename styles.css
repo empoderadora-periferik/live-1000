@@ -30,10 +30,7 @@ body {
 
 .navbar-logo {
     position: absolute;
-    width: 231px;
-    height: 231px;
     left: 88px;
-    top: -15px;
 }
 
 .nav-link {
@@ -105,7 +102,7 @@ body {
     font-weight: 600;
     font-size: 36px;
     line-height: 45px;
-    padding: 12px 5px 32px 0px;
+    text-align: center;
     color: #000000;
 }
 
@@ -113,16 +110,20 @@ body {
     position: absolute;
     width: 41px;
     height: 20px;
-    left: 239px;
+    left: 225px;
     top: 543px;
 
     font-family: 'Muli', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    word-spacing: 28px;
+    word-spacing: 30px;
 
     color: #000000;
+}
+
+.legenda p {
+    margin-left: 5px;
 }
 
 td {
@@ -216,7 +217,6 @@ td {
     left: 0px;
     top: 1408px;
 
-
     background: #444343;
 }
 
@@ -240,7 +240,7 @@ td {
     position: absolute;
     width: 248px;
     height: 442px;
-    left: 198px;
+    left: 260px;
     top: 104px;
 }
 
@@ -276,7 +276,6 @@ td {
     font-size: 20px;
     line-height: 33px;
     text-align: center;
-    width: 156px;
     height: 127px;
 
     color: #FFFFFF;
