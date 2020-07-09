@@ -826,10 +826,10 @@ footer p {
     .navbar {
         background-image: url(/img/backgroundMobile.svg);
         background-repeat: no-repeat;
-        background-size: cover;
-        width: 100vw;
+        background-size: auto;
+        width: 100%;
     }
-
+    
     .navbar-toggler {
         display: block;
         position: relative;
@@ -840,7 +840,7 @@ footer p {
     
     .navbar-logo {
         position: relative;
-        left: 1px !important;
+        left: -10px !important;
         top: 30px;
     }
     
@@ -1016,12 +1016,13 @@ footer p {
     .imgLeft {
         position: relative;
         left: -20% !important;
+        margin-bottom: 10px;
     }
 
     .pLeft {
         position: relative;
         left: -22% !important;
-        margin-top: 5px;
+        margin-top: -200px;
 
         text-align: center;
         width: 90vw;
