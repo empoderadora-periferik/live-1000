@@ -827,7 +827,18 @@ footer p {
         display: none;
     }
 
+    .cadastro h1, .cadastro h2, .cadastro p {
+        display: none;
+    }
+
+
+
     /* Estilos no mobile */
+
+    body, html {
+        width: 100vw !important;
+        height: 100vh !important;
+    }
 
     /* Estilos do cabeçalho */
     .cabecalho {
@@ -935,7 +946,7 @@ footer p {
         top: -2%;
 
         background: #F0CCCA;
-    }
+    }  
 
     .convidados h4 {
         position: relative;
@@ -981,12 +992,147 @@ footer p {
     }
     
     .parcerias img {
-        display: ;
         width: 40%;
         position: relative;
         margin-left: 10px;
         border-radius: 40;
         margin-top: 90px;
     }
+
+
+    /* Estilos de cadastro */ 
+
+    .registrationForm {
+        position: absolute !important;
+        width: 100vw;
+        height: 614px;
+        z-index: 1 !important;
+        margin-right: 100px !important;
+        left: 0px !important;
+
+        top: -5%;
+        background: #F4F4F4;
+        border-radius: 0px;
+    }
+    
+    .cadastrase {
+        position: relative;
+        height: 100px;
+        margin-top: 10px;
+    
+        text-align: center;
+        font-family: 'Muli', sans-serif;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+    
+        color: #000000;
+    }
+    
+    
+    #nome {
+        position: relative;
+        width: 90vw;
+        left: 20px;
+        height: 60px;
+    
+        background: #CBCBCB;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    
+    }
+    
+    #email {
+        position: relative;
+        width: 90vw;
+        height: 60px;
+        left: 20px;
+        top: 40px;
+    
+        background: #CBCBCB;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    }
+    
+    .confirmar {
+        position: relative;
+        width: 280px;
+        height: 77px;
+        left: 10%;
+        top: 140px;
+    
+        background: #F0C530;
+        border: 6px solid rgba(240, 197, 48, 0.7);
+        box-sizing: border-box;
+        border-radius: 12px;
+    
+        font-family: 'Muli', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    
+        color: #000000;
+    
+    }
+    
+    .formStyle p {
+        position: relative;
+        margin-top: 150px;
+    
+        font-size: 20px !important;
+        text-align: center;
+    
+    }
+
+    /* Estilos de rodapé */ 
+
+
+footer {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    background: #B5B4B4 !important;
+}
+
+.insta {
+    position: absolute;
+    left: 130px;
+    top: 92px;
+
+    width: 10%;
+    height: auto;
+}
+
+.face {
+    position: absolute;
+    left: 200px;
+    top: 90px;
+}
+
+footer p {
+    position: absolute;
+    width: 228px;
+    height: 23px;
+    left: 65px;
+    top: 150px;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.logo_final {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 30px;
+    right: 85px;
+}
 
 }
