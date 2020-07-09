@@ -783,3 +783,87 @@ footer p {
 
 /*-----------------Media query-----------------*/
 
+@media (max-width: 420px) {
+
+    /*Primeiro, removendo os estilos que não aparecem*/
+
+    .youtube {
+        display: none;
+    }
+
+    .mulherLampada {
+        display: none;
+    }
+    
+    .mulheres {
+        display: none;
+    }
+
+    .destaque_direito {
+        display: none;
+    }
+
+    .faltamApenas {
+        display: none;
+    }
+
+    /* Estilos no mobile */
+
+    /* Estilos do cabeçalho */
+    .cabecalho {
+        width: 100vw;
+    }
+
+    .destaque_texto {
+        display: block;
+        position: relative;
+        width: 100vw;
+
+        color: white !important;
+        left: 55px !important;
+
+        font-size: 40px !important;
+    }
+
+    .destaque_subTexto {
+        display: block;
+        position: absolute;
+        width: 100vw;
+
+        color: white !important;
+        left: 2px !important;
+        text-align: center;
+
+        font-size: 20px !important;
+    }
+
+    .destaque_data {
+        display: block;
+        position: absolute;
+        width: 100vw;
+        text-align: center;
+
+        color: white !important;
+        left: 2px !important;
+
+        font-size: 20px !important;
+    }
+
+    .contagem {
+        position: relative;
+        top: -20%;
+        right: 38%;
+    }
+
+    .btn-garantir {
+        position: absolute;
+        top: 94% !important;
+        left: 68px;
+    }
+
+    .navbar-logo {
+        position: relative;
+        left: 55px;
+        top: 30px;
+    }
+}
