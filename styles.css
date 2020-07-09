@@ -379,7 +379,7 @@ td {
     text-align: right;
 }
 
-/* bloco de estilos de parcerias */
+/* bloco de estilos de apoio */
 
 .parcerias {
     position: relative;
@@ -807,6 +807,26 @@ footer p {
         display: none;
     }
 
+    .convidados-row {
+        display: none;
+    }
+    
+    .convidados-row-text {
+        display: none;
+    }
+    
+    .imgLeft {
+        display: none;
+    }
+    
+    .imgRight {
+      display: none;
+    }
+    
+    .pLeft {
+        display: none;
+    }
+
     /* Estilos no mobile */
 
     /* Estilos do cabeçalho */
@@ -880,7 +900,7 @@ footer p {
     
         font-family: 'Muli', sans-serif;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 35px;
         line-height: 88px;
         text-align: center;
     
@@ -904,4 +924,69 @@ footer p {
     
         color: #000000;
     }
+
+    /* Estilos de "convidadas" */
+
+
+    .convidados {
+        position: relative;
+        width: 100vw;
+        left: 0px;
+        top: -2%;
+
+        background: #F0CCCA;
+    }
+
+    .convidados h4 {
+        position: relative;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-bottom: 30px;
+        width: 90%;
+        height: 69px;
+
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 65px;
+        text-align: center;
+        align-self: center;
+
+        color: black;
+    }
+
+    /* Estilos de "Apoio" */
+
+    .parcerias {
+        position: relative;
+        background-color: white;
+        margin-top: -4%;
+        height: 500px;
+    
+    }
+    
+    .parcerias h1 {
+        position: absolute;
+        width: 100%;
+        height: 111px;
+        left: 0px;
+    
+        font-family: 'Muli', sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 88px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    .parcerias img {
+        display: ;
+        width: 40%;
+        position: relative;
+        margin-left: 10px;
+        border-radius: 40;
+        margin-top: 90px;
+    }
+
 }
