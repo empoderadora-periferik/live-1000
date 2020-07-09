@@ -16,9 +16,6 @@ const closeBtn = document.getElementById("closeBtn");onclick = function () {
     document.getElementById("popup").style.display = "none"
 }
 
-const youtube = document.getElementById("youtube").onclick = function () {
-    location.href = "https://www.youtube.com/watch?v=LDmTFlOTFb4"
-}
 
 
 // --------------------Calling listeners--------------------

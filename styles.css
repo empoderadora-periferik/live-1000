@@ -186,7 +186,25 @@ td {
     display: inline-flex;
     position: relative;
     left: 900px;
-    top: 40px;
+    top: 15px;
+}
+
+.assistir {
+    position: absolute;
+    height: 23px;
+    top: 62px;
+    left: 20px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F0C530;
 }
 
 .redesSociais img {
