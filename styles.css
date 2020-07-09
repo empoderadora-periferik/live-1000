@@ -866,4 +866,42 @@ footer p {
         left: 35px;
         top: 30px;
     }
+
+    /* Estilos de "o evento" */
+
+    .sobre {
+        display: block;
+        background-color: white;
+    }
+    .sobre h2 {
+        position: absolute;
+        width: 100%;
+        left: 1px;
+    
+        font-family: 'Muli', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 88px;
+        text-align: center;
+    
+        color: #000000;
+    
+        padding-bottom: 21px;
+    }
+    
+    .sobre p {
+        position: absolute;
+        width: 90%;
+        left: 20px;
+        margin-top: 1px;
+    
+        font-family: Muli;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+    
+        color: #000000;
+    }
 }
