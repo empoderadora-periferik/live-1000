@@ -627,6 +627,7 @@ footer p {
   }
   
   .popupTitle {
+    position: relative;
     font-size: 26px;
     margin-bottom: 15px;
 
@@ -634,14 +635,14 @@ footer p {
 
     width: 849px;
     height: 81px;
-    left: 396px;
-    top: 64px;
+    left: 30px;
+    top: 10px;
 
     font-family: Muli;
     font-style: normal;
     font-weight: 900;
-    font-size: 50px;
-    line-height: 88px;
+    font-size: 40px;
+    line-height: 50px;
 
     color: #F0C530;
 
@@ -649,7 +650,9 @@ footer p {
   }
 
   .subTitle {
+    position: relative;
     text-align: center;
+    margin-top: 50px;
 
     font-family: Muli;
     font-style: normal;
@@ -662,8 +665,8 @@ footer p {
 
   .popupContainer form {
     position: relative;
-    margin-left: 30%;
-    margin-top: 8%;
+    margin-left: 28.5%;
+    margin-top: 0%;
     background: #F8F8F8;
     width: 390px;
     height: 400px; 
@@ -779,7 +782,7 @@ footer p {
 .logoPopup {
     display: block;
     margin-top: 95%;
-    margin-left: 45px;
+    margin-left: 40px;
 }
 
 /*-----------------Media query-----------------*/
