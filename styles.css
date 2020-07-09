@@ -817,12 +817,12 @@ footer p {
     .destaque_texto {
         display: block;
         position: relative;
-        width: 100vw;
+        width: 100%;
 
         color: white !important;
-        left: 55px !important;
+        left: 45px !important;
 
-        font-size: 40px !important;
+        font-size: 35px !important;
     }
 
     .destaque_subTexto {
@@ -851,19 +851,19 @@ footer p {
 
     .contagem {
         position: relative;
-        top: -20%;
-        right: 38%;
+        top: -30%;
+        right: 51%;
     }
 
     .btn-garantir {
         position: absolute;
         top: 94% !important;
-        left: 68px;
+        left: 40px;
     }
 
     .navbar-logo {
         position: relative;
-        left: 55px;
+        left: 35px;
         top: 30px;
     }
 }
