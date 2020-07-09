@@ -1,5 +1,5 @@
 //Declaring the deadline button so we can find the difference between current date and final date.
-const deadline = '2020-07-09 20:00:00 gmt-0300';
+const deadline = '2020-07-09 20:30:00 gmt-0300';
 
 //Function to parse date and find seconds, minutes, hours etc...
 function getTimeRemaining(endtime) {
