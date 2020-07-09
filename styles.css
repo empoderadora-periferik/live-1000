@@ -72,17 +72,18 @@ html, body {
 
 .navbar-logo {
     position: relative;
-    left: 88px;
+    left: 90px;
     top: 30px;
 }
 
 .nav-link {
-
     font-family: 'Muli', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 28px;
     /* identical to box height */
+
+    white-space: nowrap;
 
     text-align: center;
 
@@ -109,7 +110,7 @@ html, body {
 
 #nav-parcerias {
     position: absolute;
-    width: 81px;
+    width: 85px;
     height: 23px;
     left: 1005px;
     top: 67px;

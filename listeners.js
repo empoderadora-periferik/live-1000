@@ -1,28 +1,3 @@
-// --------------------Popup function--------------------
-
-function onMouseOut(event) {
-
-    if (timeSpentOnSite >= 5) {
-    document.removeEventListener("mouseout", onMouseOut);
-
-    document.getElementById("popup").style.display = "block";
-}
-}
-
-
-// --------------------Consts for ev.listeners--------------------
-
-const closeBtn = document.getElementById("closeBtn");onclick = function () {
-    document.getElementById("popup").style.display = "none"
-}
-
-
-
-// --------------------Calling listeners--------------------
-
-
-document.addEventListener("mouseout", onMouseOut);
-
 // ------------------------User time on page----------------
 
 var timer;
@@ -47,3 +22,28 @@ function startCounting(){
 }
 
 startCounting();
+
+// --------------------Popup function--------------------
+
+function onMouseOut(event) {
+
+    if (timeSpentOnSite >= 5) {
+    document.removeEventListener("mouseout", onMouseOut);
+
+    document.getElementById("popup").style.display = "block";
+}
+}
+
+
+// --------------------Consts for ev.listeners--------------------
+
+const closeBtn = document.getElementById("closeBtn");onclick = function () {
+    document.getElementById("popup").style.display = "none"
+}
+
+
+
+// --------------------Calling listeners--------------------
+
+
+document.addEventListener("mouseout", onMouseOut);
