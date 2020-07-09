@@ -775,5 +775,11 @@ footer p {
     height: 10px;
 }
 
+.logoPopup {
+    display: block;
+    margin-top: 95%;
+    margin-left: 45px;
+}
+
 /*-----------------Media query-----------------*/
 
