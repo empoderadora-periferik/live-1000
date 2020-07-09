@@ -323,15 +323,18 @@ td {
 /* bloco de estilos de parcerias */
 
 .parcerias {
-    display: none;
+    position: relative;
+    background-color: white;
+    margin-top: 850px;
+    height: 800px;
+
 }
 
 .parcerias h1 {
-    position: absolute;
+    position: relative;
     width: 459px;
     height: 111px;
     left: 491px;
-    top: 2050px;
 
     font-family: 'Muli', sans-serif;
     font-weight: bold;
@@ -342,27 +345,13 @@ td {
     color: #000000;
 }
 
-.parcerias-row {
-    display: inline-flex;
-    position: absolute;
-    left: 173px;
-    top: 2150px;
-}
-
 .formigao {
-    top: 1000px;
+    position: relative;
     left: 100px;
     border-radius: 40;
 }
 
-.parcerias-col {
-    width: 173px;
-    height: 147px;
-    position: relative;
-    background: #C4C4C4;
-
-    margin-right: 57px;
-}
+/*Bloco de estilos de cadastro*/
 
 .cadastro {
     display: none;
