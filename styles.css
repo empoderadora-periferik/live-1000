@@ -424,7 +424,6 @@ td {
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
-    font-weight: ;
 
     color: #000000;
 }
@@ -623,7 +622,7 @@ footer p {
 
   .popupContainer form {
     position: relative;
-    margin-left: 50%;
+    margin-left: 30%;
     margin-top: 8%;
     background: #F8F8F8;
     width: 390px;
