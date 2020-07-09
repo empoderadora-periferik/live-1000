@@ -790,27 +790,33 @@ footer p {
 
     .youtube {
         display: none;
-    }
+        width: 0px;    }
 
     .mulherLampada {
         display: none;
+        width: 0px;
     }
     
     .mulheres {
         display: none;
+        width: 0px;
     }
 
     .destaque_direito {
         display: none;
+        width: 0px;
+
     }
 
     .faltamApenas {
         display: none;
+        width: 0px;
     }
 
 
     .cadastro h1, .cadastro h2, .cadastro p {
         display: none;
+        width: 0px;
     }
 
 
@@ -827,7 +833,7 @@ footer p {
         background-image: url(/img/backgroundMobile.svg);
         background-repeat: no-repeat;
         background-size: auto;
-        width: 100%;
+        width: 100vw;
     }
     
     .navbar-toggler {
@@ -887,10 +893,10 @@ footer p {
         background-size: cover;
     }
 
-    .destaque_texto {
+    .destaque_texto, .destaque_texto h2 {
         display: block;
         position: relative;
-        width: 100%;
+        width: 78vw !important;
 
         color: white !important;
         left: 45px !important;
@@ -991,14 +997,16 @@ footer p {
         background: #F0CCCA;
     } 
 
-    .convidados-row {
+    .convidados-row, .convidados-row-text {
         display: block;
+        width: 100vw;
+        left: 0px;
     }
 
     .convidados h4 {
         position: relative;
         margin-top: 10px;
-        margin-left: 5%;
+        margin-left: 8%;
         margin-bottom: 30px;
         width: 90%;
         height: 69px;
@@ -1015,31 +1023,34 @@ footer p {
 
     .imgLeft {
         position: relative;
-        left: -20% !important;
         margin-bottom: 10px;
+        left: 57px;
     }
 
     .pLeft {
         position: relative;
-        left: -22% !important;
-        margin-top: -200px;
+        margin-bottom: 10px;
+        left: 20px;
 
         text-align: center;
         width: 90vw;
+
     }
 
     .imgRight {
         position: absolute;
-        left: -20.5% !important;
-        top: 5px;
+        left: 30px;
+        top: -350px;
         z-index: 1;
         width: 70vw;
+
+        margin-bottom: -30% !important;
     }
 
     .pRight {
         position: relative;
-        left: -22% !important;
-        margin-top: 280px;
+        margin-top: 380px;
+        left: 20px;
 
         text-align: center;
         width: 90vw;
