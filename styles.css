@@ -132,7 +132,7 @@ body {
     width: 275px;
     height: 83px;
     left: 225px;
-    top: 486px;
+    top: 588px;
 
     background: #C4C4C4;
 
@@ -149,7 +149,7 @@ body {
     width: 41px;
     height: 20px;
     left: 225px;
-    top: 543px;
+    top: 643px;
 
     font-family: 'Muli', sans-serif;
     font-weight: 600;
@@ -218,7 +218,6 @@ td {
     height: 62px;
     left: 1126px;
     top: 48px;
-    right: 86px;
 
     background: #F0C530;
 
@@ -235,7 +234,7 @@ td {
     position: absolute;
     width: 275px;
     height: 70px;
-    left: 225px;
+    left: 525px;
     top: 601px;
 
     background: #F0C530;
