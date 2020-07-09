@@ -52,7 +52,7 @@ html, body {
 .destaque_data {
     position: absolute;
     top: 390px;
-    left: 20%;
+    left: 18%;
 
     font-family: Muli;
     font-style: normal;
@@ -190,6 +190,36 @@ td {
 
 .redesSociais img {
     margin: 5px;
+}
+
+.youtube {
+    position: relative;
+    left: 30%;
+    top: 300px;
+}
+
+.faltamApenas {
+    position: absolute;
+    width: 220px;
+    height: 64px;
+    left: 250px;
+    top: 527px;
+    z-index: 1;
+
+    background: #AF9129;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.faltamApenas p {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-top: 15px;
 }
 
 /* Bloco de estilos "O Evento" */
