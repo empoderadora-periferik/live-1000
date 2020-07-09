@@ -6,13 +6,12 @@ function onMouseOut(event) {
     document.getElementById("popup").style.display = "block";
 }
 
-function closeAlert(event) {
-    document.getElementById("popup").style.display = "none";
-}
 
 // --------------------Consts for ev.listeners--------------------
 
-const closeBtn = document.getElementById("closeBtn");
+const closeBtn = document.getElementById("closeBtn");onclick = function () {
+    document.getElementById("popup").style.display = "none"
+}
 
 const youtube = document.getElementById("youtube").onclick = function () {
     location.href = "https://www.youtube.com/watch?v=LDmTFlOTFb4"
@@ -21,7 +20,5 @@ const youtube = document.getElementById("youtube").onclick = function () {
 
 // --------------------Calling listeners--------------------
 
-
-closeBtn.addEventListener("click", closeAlert);
 
 document.addEventListener("mouseout", onMouseOut);
