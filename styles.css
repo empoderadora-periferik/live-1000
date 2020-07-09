@@ -15,6 +15,7 @@ html, body {
     height: 100vh;
 }
 
+
 /* bloco do cabeçalho principal */
 .cabecalho {
     position: relative;
@@ -807,30 +808,10 @@ footer p {
         display: none;
     }
 
-    .convidados-row {
-        display: none;
-    }
-    
-    .convidados-row-text {
-        display: none;
-    }
-    
-    .imgLeft {
-        display: none;
-    }
-    
-    .imgRight {
-      display: none;
-    }
-    
-    .pLeft {
-        display: none;
-    }
 
     .cadastro h1, .cadastro h2, .cadastro p {
         display: none;
     }
-
 
 
     /* Estilos no mobile */
@@ -840,9 +821,70 @@ footer p {
         height: 100vh !important;
     }
 
+    /* Estilos da navbar */
+
+    .navbar {
+        background-image: url(/img/backgroundMobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+    }
+
+    .navbar-toggler {
+        display: block;
+        position: relative;
+        left: 55%;
+        bottom: 70px;
+        z-index: 1;
+    }
+    
+    .navbar-logo {
+        position: relative;
+        left: 1px !important;
+        top: 30px;
+    }
+    
+    .nav-link {
+    
+        font-family: 'Muli', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        /* identical to box height */
+    
+        text-align: center;
+    
+        color: #FFFFFF !important;
+    }
+    
+    #nav-sobre {
+        position: absolute;
+        width: 100vw;
+        height: 23px;
+        top: 67px;
+        padding-right: 40px;
+    }
+    
+    #nav-convidados {
+        position: absolute;
+        width: 100vw;
+        height: 23px;
+        top: 67px;
+        padding-right: 40px;
+    }
+    
+    #nav-parcerias {
+        position: absolute;
+        height: 23px;
+        top: 67px;
+        padding-right: 72px;
+    }
+
     /* Estilos do cabeçalho */
     .cabecalho {
         width: 100vw;
+        background-image: url(/img/backgroundMobile.svg);
+        background-size: cover;
     }
 
     .destaque_texto {
@@ -942,11 +984,16 @@ footer p {
     .convidados {
         position: relative;
         width: 100vw;
+        height: 2800px;
         left: 0px;
         top: -2%;
 
         background: #F0CCCA;
-    }  
+    } 
+
+    .convidados-row {
+        display: block;
+    }
 
     .convidados h4 {
         position: relative;
@@ -964,6 +1011,37 @@ footer p {
         align-self: center;
 
         color: black;
+    }
+
+    .imgLeft {
+        position: relative;
+        left: -20% !important;
+    }
+
+    .pLeft {
+        position: relative;
+        left: -22% !important;
+        margin-top: 5px;
+
+        text-align: center;
+        width: 90vw;
+    }
+
+    .imgRight {
+        position: absolute;
+        left: -20.5% !important;
+        top: 5px;
+        z-index: 1;
+        width: 70vw;
+    }
+
+    .pRight {
+        position: relative;
+        left: -22% !important;
+        margin-top: 280px;
+
+        text-align: center;
+        width: 90vw;
     }
 
     /* Estilos de "Apoio" */
@@ -1088,51 +1166,51 @@ footer p {
     /* Estilos de rodapé */ 
 
 
-footer {
-    position: relative;
-    width: 100vw;
-    height: 200px;
-    background: #B5B4B4 !important;
-}
+    footer {
+        position: relative;
+        width: 100vw;
+        height: 200px;
+        background: #B5B4B4 !important;
+    }
 
-.insta {
-    position: absolute;
-    left: 130px;
-    top: 92px;
+    .insta {
+        position: absolute;
+        left: 130px;
+        top: 92px;
 
-    width: 10%;
-    height: auto;
-}
+        width: 10%;
+        height: auto;
+    }
 
-.face {
-    position: absolute;
-    left: 200px;
-    top: 90px;
-}
+    .face {
+        position: absolute;
+        left: 200px;
+        top: 90px;
+    }
 
-footer p {
-    position: absolute;
-    width: 228px;
-    height: 23px;
-    left: 65px;
-    top: 150px;
+    footer p {
+        position: absolute;
+        width: 228px;
+        height: 23px;
+        left: 65px;
+        top: 150px;
 
-    font-family: 'Muli', sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23px;
+        font-family: 'Muli', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
 
-    text-align: center;
+        text-align: center;
 
-    color: #000000;
-}
+        color: #000000;
+    }
 
-.logo_final {
-    position: absolute;
-    width: 50%;
-    height: auto;
-    top: 30px;
-    right: 85px;
-}
+    .logo_final {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 30px;
+        right: 85px;
+    }
 
 }
