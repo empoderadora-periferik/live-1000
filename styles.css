@@ -24,8 +24,9 @@ html, body {
     top: 0px;
     right: 0px;
 
-
-    background: linear-gradient(96.56deg, #303030 56.29%, rgba(189, 147, 40, 0) 258.96%);
+    background-image: url(img/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -63,7 +64,9 @@ html, body {
     color: #FFFFFF;
 }
 .navbar {
-    background: #303030 !important;
+    background-image: url(/img/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar-logo {
@@ -425,7 +428,7 @@ td {
     display: block;
     width: 570px;
     height: 614px;
-    left: 728px;
+    left: 828px;
     top: -150%;
     background: #F0CCCA;
     border-radius: 20px;
@@ -748,10 +751,32 @@ footer p {
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
+
+    img { max-width: 100%; height: auto; }
+
 }
 
 /* Media Queries: Tabled Portrait */
 @media screen and (max-width: 768px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
+
+    img { max-width: 100%; height: auto; }
+
 }
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
