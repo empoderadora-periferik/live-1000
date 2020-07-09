@@ -178,6 +178,17 @@ td {
     top: 191px;
 }
 
+.redesSociais {
+    display: inline-flex;
+    position: relative;
+    left: 900px;
+    top: 40px;
+}
+
+.redesSociais img {
+    margin: 5px;
+}
+
 /* Bloco de estilos "O Evento" */
 
 .sobre {
@@ -409,7 +420,7 @@ td {
 
 /* bloco de estilos específico do formulário de cadastro */ 
 
-form {
+.registrationForm {
     position: relative;
     display: block;
     width: 570px;
@@ -729,4 +740,18 @@ footer p {
     bottom: 87%;
     width: 10px;
     height: 10px;
+}
+
+/*-----------------Media query-----------------*/
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
