@@ -8,7 +8,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <link rel="stylesheet" href="styles.css">
-    <title>Empoderadora Periferik</title>
+    <title>Empoderadora</title>
 </head>
 
 <body>
@@ -35,9 +35,10 @@
     </div>
 
     <!--Fim da div do popup, início do layout do site-->
+
     <div class="cabecalho">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand"><img class="navbar-logo" src="img/logo_branco 1.png" /></a>
+            <a class="navbar-brand"><img class="navbar-logo" src="img/novo_logo_branco 4.svg" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,8 +55,9 @@
                     <li class="nav-item">
                         <a class="nav-link" id="nav-parcerias" href="#divparcerias">Parcerias</a>
                     </li>
-                    <li class="nav-item">
-                        <button class="nav-btn-garantir" type="submit" onclick="garantirVaga();">Garantir vaga</button>
+                    <li class="redesSociais">
+                        <img src="img/instaAmarelo.svg"/>
+                        <img src="img/faceAmarelo.svg"/>
                     </li>
                 </ul>
             </div>
@@ -102,6 +104,7 @@
             <br><br>Agora precisamos fazer jus ao conhecimento e começar a ser cada vez mais #BOSS. Para incentivar, a
             Empoderadora XP convidou três mulheres inspiradoras para um bate papo AO VIVO, ONLINE e GRATUITO, nesta
             quinta-feira (dia 9). Vai vendo o naipe das minas!</p>
+        <img src="img/mulherLampada.svg" class="mulherLampada"/>
     </div>
     <div class="convidados" id="divconvidados">
         <h4>Convidadas</h4>
@@ -184,7 +187,7 @@
     <!--Inicio div parcerias-->
     <div class="parcerias" id="divparcerias">
         <h1>Empresas Parceiras</h1>
-            <img src="img/formigao.png" class="formigao">
+        <img src="img/formigao.png" class="formigao">
 
     </div>
     <span class="border border-dark">
@@ -194,17 +197,28 @@
             <h2>Empreendedorismo Feminino e Sustentabilidade<h2><br>
                     <h2>Data: 9 de julho | Horário: 20h</h2><br>
                     <div>
-                        <p>Evento totalmente ONLINE e GRATUITO</p>
+                        <p>
+                            Evento totalmente
+                            <br>
+                            ONLINE e GRATUITO
+                        </p>
+                    <img src="img/mulheres 1.svg" class="mulheres">
                     </div>
     </span>
     <form class="registrationForm">
-        <h3 class="cadastrase">Cadastre-se e garanta sua vaga!</h3>
-        <label for="nome" class="nome">Nome</label>
-        <input id="nome" type="text" />
-        <label for="email" class="email">E-mail</label>
-        <input id="email" type="text" />
-        <button class="confirmar">Confirmar</button>
+        <div class="formStyle">
+            <h3 class="cadastrase">
+                <br>
+                <br>
+                <strong>Cadastre-se e garanta sua vaga!</strong> 
+            </h3>
+            <input id="nome" type="text" placeholder="Nome" />
+            <input id="email" type="text" placeholder="E-mail"/>
+            <button class="confirmar">Confirmar</button>
+            <p>Não iremos enviar spam para você</p>
+        </div>
     </form>
+
     </div>
     <footer>
         <a href="https://www.instagram.com/empoderadora.periferik/">
