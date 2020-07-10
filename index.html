@@ -8,15 +8,23 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <link rel="stylesheet" href="styles.css">
-    <title>Empoderadora Periferik</title>
+    <title>Empoderadora</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <!--Popup div-->
     <div id="popup" class="popupWrapper">
         <div class="popupContainer">
-            <h1 class="popupTitle">Seu negócio vai mal?</h1>
-            <p class="subTitle">Cadastre-se e receba informações de experts do mercado</p>
+            <h1 class="popupTitle">Se inscreva na nossa Live de Empreendedorismo Feminino.</h1>
+            <p class="subTitle">Cadastre-se e receba o link para acesso</p>
 
             <form class="registrationFormPopup">
                 <p class="popupMsg">xpto</p>
@@ -26,6 +34,7 @@
                 <input id="emailPopup" type="text" />
                 <button class="confirmarPopup">Quero receber!</button>
                 <p class="footMsg">Não iremos enviar spam para você.</p>
+                <img src="/img/novo_logo_branco 4.svg" class="logoPopup">
             </form>
 
             <div class="closeBtn">
@@ -35,9 +44,10 @@
     </div>
 
     <!--Fim da div do popup, início do layout do site-->
+
     <div class="cabecalho">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand"><img class="navbar-logo" src="img/logo_branco 1.png" /></a>
+            <a class="navbar-brand"><img class="navbar-logo" src="img/novo_logo_branco 4.svg" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,16 +56,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" id="nav-sobre" href="#divsobre">Sobre o evento</a>
+                        <a class="nav-link" id="nav-sobre" href="#divsobre">sobre o evento</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="nav-convidados" href="#divconvidados">Convidados</a>
+                        <a class="nav-link" id="nav-convidados" href="#divconvidados">Convidadas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="nav-parcerias" href="#divparcerias">Parcerias</a>
+                        <a class="nav-link" id="nav-parcerias" href="#divparcerias">quem apoia</a>
                     </li>
-                    <li class="nav-item">
-                        <button class="nav-btn-garantir" type="submit" onclick="garantirVaga();">Garantir vaga</button>
+                    <li class="redesSociais">
+                        <a href="https://www.youtube.com/watch?v=LDmTFlOTFb4">
+                            <p class="assistir">assistir</p>
+                            <img src="img/youtubeGold.svg" />
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -63,12 +76,16 @@
 
         <h2 class="destaque_texto">Hora das Manas</h2>
         <p class="destaque_subTexto">Empreendedorismo<br>
-        Feminino e Sustentabilidade</p>
+            Feminino e Sustentabilidade</p>
         <p class="destaque_data">Data: 9 de Julho<br>
-        Horário: 20h</p>
+            Horário: 20h30</p>
 
-        
-        <table>
+        <div class="faltamApenas">
+            <p>faltam apenas</p>
+        </div>
+
+
+        <table class="contagem">
             <tr>
                 <td>
                     <div id="clock"></div>
@@ -95,80 +112,157 @@
     </div>
 
     <div class="sobre" id="divsobre">
-        <h2>Sobre o evento</h2>
-        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+        <h2>O evento</h2>
+        <p>Who run the World? GIRLS! Sim, meninas empoderadas, nós ditamos as regras do jogo e estamos cheia de energia
+            para mostrar o nosso potencial. Um dado legal é que 63% dos diplomas no Brasil já são de mulheres, você
+            sabia?
+            <br><br>Agora precisamos fazer jus ao conhecimento e começar a ser cada vez mais #BOSS. Para incentivar, a
+            Empoderadora XP convidou três mulheres inspiradoras para um bate papo AO VIVO, ONLINE e GRATUITO, nesta
+            quinta-feira (dia 9). Vai vendo o naipe das minas!</p>
+        <img src="img/mulherLampada.svg" class="mulherLampada" />
     </div>
+
+    <!--Div convidados padrão-->
     <div class="convidados" id="divconvidados">
-        <h4>Convidados</h4>
-        <div class="convidados-row">
-            <div class="convidados-col"><img src="img/Ellipse 5.png">
-                <h5>Convidado1</h5>
-                <div>
-                    <h6>Descrição</h6>
-                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+        <h4>Convidadas</h4>
+        <div class="convidados-col-10">
+            <div class="convidados-row">
+                <img src="img/Daniele.svg" class="imgLeft">
+                <div class="convidados-row-text">
+                    <p class="pLeft">
+                        <strong>Daniele Trujillo</strong>
+                        <br>
+                        @remimobijoux
+                        <br>
+                        <br>
+                        Formada em Marketing e pós-graduada em Eng. de Produção, é empreendedora na Remimo Bijoux desde
+                        2015 e na NuLead desde 2018. Apaixonada por sustentabilidade e comunicação. A Remimo Bijoux é
+                        uma marca de bijuterias sustentáveis, produzidas por meio de processo de logística reversa, ou
+                        seja, reciclamos bijoux que não são mais usadas, evitando que sejam descartadas em lixo comum.
+                        Com isso, ressignificamos as matérias-primas, transformando-as em novas peças.</p>
                 </div>
             </div>
-            <div class="convidados-col"><img src="img/Ellipse 6.png">
-                <h5>Convidado2</h5>
-                <div>
-                    <h6>Descrição</h6>
-                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+            <div class="convidados-row">
+                <div class="convidados-row-text">
+                    <p class="pRight">
+                        <strong>Izis Bispo</strong>
+                        <br>
+                        @sintese.eco
+                        <br>
+                        <br>
+                        Formada em jornalismo, possui mais de 10 anos de experiência na área de comunicação e marketing.
+                        Com passagens pelo SBT, atuou ainda em jornais de bairro, site de notícias, agências e como
+                        coordenadora de comunicação da Curves, maior rede de franquias de fitness feminino do mundo. Sua
+                        jornada empreendedora começou há 4 anos, quando criou a marca de moda sustentável Síntese.eco,
+                        que produz peças de roupas com tecido proveniente da reciclagem de garrafas PET, tirando assim
+                        do meio ambiente, em média, duas garrafas para cada camiseta produzida. As estampas são
+                        desenvolvidas por artistas independentes, alguns moradores da periferia, que não teriam outras
+                        chances de mostrar sua arte ao mundo.</p>
+                    <img src="img/Isis.svg" class="imgRight">
                 </div>
             </div>
-            <div class="convidados-col"><img src="img/Ellipse 7.png">
-                <h5>Convidado3</h5>
-                <div>
-                    <h6>Descrição</h6>
-                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+            <div class="convidados-row">
+                <img src="img/Michelle.svg" class="imgLeft">
+                <div class="convidados-row-text">
+                    <p class="pLeft">
+                        <strong>Michelle Campos</strong>
+                        <br>
+                        @midescomplica
+                        <br>
+                        <br>
+                        Mi Campos, para os mais íntimos, é um multipotencial feminino, que transita entre o audiovisual
+                        e a moda em várias funções. Ela é formada em Moda e Administração e, atualmente, produz conteúdo
+                        digital de moda para o @midescomplica, é fotógrafa no @michellecamposfotografia e agora também é
+                        social media.Girl Power!</p>
                 </div>
             </div>
+
+            <div class="convidados-row">
+                <div class="convidados-row-text">
+                    <p class="pRight">
+                        <strong>Renata Brasileiro</strong>
+                        <br>
+                        @soyrenatabrasileiro
+                        <br>
+                        <br>
+                        Antropóloga com 5 anos de experiência na educação básica, em articulação e mediação de projetos
+                        culturais e no desenvolvimento de pesquisas atualmente sou mestranda em Educação, Cultura e
+                        Identidade. Foco em pesquisas e projetos culturais com a perspectiva latino americanista como
+                        uma forma integradora de saberes transdisciplinares e por víeis periféricos. Vivo em busca do
+                        "Buen-Vivir" como pratica cotidiana. Se preciso me definir me considero pró-ativa, curiosa,
+                        criativa e colaborativa. E nesse exato momento estou preparando a minha bagagem (e sendo
+                        minimalista nas escolhas do que levar) para a viagem rumo a indústria 4.0. </p>
+                    <img src="img/Renata.svg" class="imgRight">
+                </div>
+            </div>
+
         </div>
     </div>
+
+    <!--Inicio div parcerias-->
     <div class="parcerias" id="divparcerias">
-        <h1>Parcerias</h1>
-        <div class="parcerias-row">
-            <div class="parcerias-col"></div>
-            <div class="parcerias-col"></div>
-            <div class="parcerias-col"></div>
-            <div class="parcerias-col"></div>
-            <div class="parcerias-col"></div>
-        </div>
+        <h1>Apoio</h1>
+        <img src="img/formigao.png" class="formigao">
+        <img src="img/Ryolutes.svg" class="ryolutes">
+        <img src="img/quebra_cabeca.svg" class="quebraCabeca">
+        <img src="img/coletive.svg" class="coletiv3">
     </div>
-    <div class="cadastro">
-        <h1>LOREM IPSUM</h1>
-        <p>Evento totalmente ONLINE e GRATUITO</p>
-        <form class="registrationForm">
-            <label for="nome" class="nome">Nome</label>
-            <input id="nome" type="text" />
-            <label for="email" class="email">E-mail</label>
-            <input id="email" type="text" />
+
+
+    <span class="border border-dark">
+        <!--Inicio div cadastro-->
+        <div class="cadastro">
+            <h1>HORA DAS MANAS</h1>
+            <h2>Empreendedorismo Feminino e Sustentabilidade<h2><br>
+                    <h2>Data: 9 de julho | Horário: 20h30</h2><br>
+                    <div>
+                        <p>
+                            Evento totalmente
+                            <br>
+                            ONLINE e GRATUITO
+                        </p>
+                        <img src="img/mulheres 1.svg" class="mulheres">
+                    </div>
+        
+    </span>
+    <form class="registrationForm">
+        <div class="formStyle">
+            <h3 class="cadastrase">
+                <br>
+                <br>
+                <strong>Cadastre-se e garanta sua vaga!</strong>
+            </h3>
+            <input id="nome" type="text" placeholder="Nome" />
+            <input id="email" type="text" placeholder="E-mail" />
             <button class="confirmar">Confirmar</button>
-        </form>
+            <p>Não iremos enviar spam para você</p>
+        </div>
+    </form>
     </div>
+
+
     <footer>
-        <a href="https://www.instagram.com/empoderadora.periferik/">
+        <a href="https://www.instagram.com/empoderadora.xp/">
             <img src="img/Insta.png" class="insta">
         </a>
-        <a href="https://www.facebook.com/Empoderadora.PeriferiK">
+        <a href="https://www.facebook.com/Empoderadora.XP">
             <img src="img/face.png" class="face">
         </a>
         <p>Nos siga nas redes sociais</p>
-        <img src="img/logofinal 1.png" class="logo_final">
+        <img src="img/novo_logo_preto 1.svg" class="logo_final">
     </footer>
     <script type="text/javascript" src="countdown.js"></script>
     <script type="text/javascript" src="firebase.js"></script>
-    <script type="text/javascript" src="exitPopup.js"></script>
+    <script type="text/javascript" src="listeners.js"></script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script>
-            function garantirVaga() {
-                $("#nome").focus();
-            }
-        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function garantirVaga() {
+            $("#nome").focus();
+        }
+    </script>
 
     <!--Firebase-->
     <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
