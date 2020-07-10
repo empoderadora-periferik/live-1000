@@ -15,6 +15,7 @@
     <meta name="HandheldFriendly" content="true">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -46,24 +47,17 @@
     <!--Fim da div do popup, início do layout do site-->
 
     <div class="cabecalho">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand"><img class="navbar-logo" src="img/novo_logo_branco 4.svg" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-sobre" href="#divsobre">sobre o evento</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-convidados" href="#divconvidados">Convidadas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-parcerias" href="#divparcerias">quem apoia</a>
-                    </li>
+        <a class="navbar-brand"><img class="navbar-logo" src="img/novo_logo_branco 4.svg" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#divsobre">sobre o evento</a></li>
+                    <li><a href="#divconvidados">convidadas</a></li>
+                    <li><a href="#divparcerias">quem apoia</a></li>
                     <li class="redesSociais">
                         <a href="https://www.youtube.com/watch?v=LDmTFlOTFb4">
                             <p class="assistir">assistir</p>
@@ -71,8 +65,10 @@
                         </a>
                     </li>
                 </ul>
+            </nav>
+            <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i>
             </div>
-        </nav>
+        </header>
 
         <h2 class="destaque_texto">Hora das Manas</h2>
         <p class="destaque_subTexto">Empreendedorismo<br>
@@ -262,6 +258,12 @@
         function garantirVaga() {
             $("#nome").focus();
         }
+
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+                $('nav').toggleClass('active')
+            })
+        })
     </script>
 
     <!--Firebase-->
