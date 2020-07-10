@@ -999,8 +999,8 @@ footer p {
 
     .contagem {
         position: relative;
-        top: -30%;
-        right: 51%;
+        top: -15%;
+        right: 137%;
     }
 
     .btn-garantir {
@@ -1011,7 +1011,7 @@ footer p {
 
     .navbar-logo {
         position: relative;
-        left: 35px;
+        left: 30px !important;
         top: 30px;
     }
 
