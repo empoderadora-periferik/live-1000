@@ -2,6 +2,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 /*Tags gerais*/
+header nav
+{
+    float: right;
+}
+header nav ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li
+{
+    list-style: none;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px
+}
+header nav ul li a
+{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+header nav ul li a:hover,
+header nav ul li a.active
+{
+    color: #fff;
+    background: #FFC0CB;
+}
+.menu-toggle
+{
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -185,16 +227,14 @@ td {
 
 .redesSociais {
     display: inline-flex;
-    position: relative;
-    left: 900px;
+    /* position: relative; */
+    /* left: 900px; */
     top: 15px;
 }
 
 .assistir {
     position: absolute;
-    height: 23px;
-    top: 62px;
-    left: 20px;
+    top: 5%;
 
     font-family: Muli;
     font-style: normal;
@@ -209,7 +249,10 @@ td {
 }
 
 .redesSociais img {
-    margin: 5px;
+    top: -29px;
+    left: -19px;
+    position: relative;
+
 }
 
 .youtube {
@@ -810,6 +853,10 @@ footer p {
 
     /*Primeiro, removendo os estilos que não aparecem*/
 
+    .cabecalho{
+        background: rgba(0, 0, 0, .75);
+    }
+
     .youtube {
         display: none;
         width: 0px;    }
@@ -1247,4 +1294,49 @@ footer p {
         right: 85px;
     }
 
+}
+
+@media (max-width: 991px)
+{
+
+    header
+    {
+        padding: 0 20px;
+    }
+    .menu-toggle
+    {
+        display: block;
+    }
+    header nav
+    {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #333;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    header nav.active
+    {
+        left: 0;
+
+    }
+    header nav ul
+    {
+        display: block;
+        text-align: center;
+    }
+    header nav ul li
+    {
+        border-bottom: 1px solid rgba(0,0,0,.2);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    header nav ul .redesSociais
+    {
+        display: none !important;
+    }
 }
